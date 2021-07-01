@@ -2,7 +2,7 @@
 ### Instructions 
 This folder contains the python wheel for a version of vw that implements FreeGrad (see [Github](https://github.com/zmhammedi/vowpal_wabbit))
 
-Before installing this version of vw first make sure to have created the coba environment by going to the examples/ folder and running
+Before installing this version of vw, first make sure you have created the coba environment by going to the examples/ folder and running:
 ```bash
 conda env create -f environment.yml 
 ```
