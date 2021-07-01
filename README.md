@@ -15,7 +15,7 @@ To run some experiments, you can choose one the notebooks in the examples/notebo
 cd examples/notebooks/
 python -m notebook 
 ```
-To test FreeGrad against other vw learners on openml datasets run the openml-backoff1.ipynb notebook 
+To test FreeGrad against other vw learners on openml datasets run the openml-bakeoff1.ipynb notebook 
 
 
 ### What is it?
