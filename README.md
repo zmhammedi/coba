@@ -1,5 +1,23 @@
 # Coba
 
+### Installation
+To install, run the follow in the command line
+```bash
+cd examples
+conda env create -f environment.yml 
+conda activate coba
+pip install vowpalwabbit-8.11.0-cp38-cp38-linux_x86_64.whl --force-reinstall
+```
+
+### Usage
+To run some experiments, you can choose one the notebooks in the examples/notebooks/ folder:
+```bash
+cd examples/notebooks/
+python -m notebook 
+```
+To test FreeGrad against other vw learners on openml datasets run the openml-backoff1.ipynb notebook 
+
+
 ### What is it?
 
  Coba is a powerful benchmarking framework built specifically for research with contextual bandit algorithms.
